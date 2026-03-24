@@ -1,0 +1,24 @@
+{
+  "validation": "LOCAL FORK - VALIDATED",
+  "contract": "AIProofOfReserves",
+  "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "features": [
+    "AI agent reserve reporting with confidence scores",
+    "Cross-chain custody address management (BTC, SOL, BNB, ETH)",
+    "Automatic anomaly detection on reserve changes",
+    "Chainlink AggregatorV3 compatibility",
+    "Multi-asset support (bUSD1, STBTCx, WBNB)",
+    "Two-step ownership transfer",
+    "IPFS/Arweave evidence hash linking",
+    "Heartbeat freshness monitoring"
+  ],
+  "gasEstimate": "2.576.438 gas (~0.025764 BNB)",
+  "timestamp": "2026-03-24T00:22:24.883Z",
+  "hackathon": "BNB Hack Online ($700K)",
+  "track": "AI + DeFi Infrastructure",
+  "readyForTestnet": true,
+  "testnetCommand": "npx hardhat run scripts/deploy.js --network bnbTestnet",
+  "faucetNeeded": "0.01 tBNB minimum",
+  "walletAddress": "0x2D87B84Ab2E83D44369ee3F27D0CB9eFa94DE299"
+}
